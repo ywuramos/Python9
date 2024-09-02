@@ -1,0 +1,4 @@
+pre = float(input('Qual é o preço R$'))
+des = pre * (5/100)
+np = pre - des
+print('Desconto de 5% = R${:.2f} >> Novo valor R${:.2f}'.format(des, np))
